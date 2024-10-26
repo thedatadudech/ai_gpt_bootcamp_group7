@@ -1,5 +1,11 @@
 # Weekend Homework 1 Report
 
+## Report for chef_texan_food_specialist.py
+<img width="1369" alt="Screenshot 2024-10-26 at 6 50 14 PM" src="https://github.com/user-attachments/assets/1036edd3-258b-4dfb-82a4-ad35560fe250">
+<img width="1364" alt="Screenshot 2024-10-26 at 6 50 39 PM" src="https://github.com/user-attachments/assets/447612d3-3ac7-4eeb-851d-1c46a4f8a5da">
+
+=======
+
 ## Introduction
 
 Provide a brief introduction to the project, its objectives, and the tasks you aimed to accomplish.
