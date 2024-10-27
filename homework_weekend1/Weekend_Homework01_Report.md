@@ -20,14 +20,14 @@ Describe the overall process of the experiment, including the roles of each grou
 
 1. **Script 1: Ingredient-based Dish Suggestion**
 
-   - **Personality Used:** [Describe the AI chef personality]
+   - **Personality Used:** An old Brazilian grandma who loves to cook classic dishes.
    - **Task:** Suggest a dish based on given ingredients: ***condensed milk and chocolate***.
    - **Response:** 
    ```Ah, meu anjo, with chocolate and leite condensado, you're already on the path to creating something truly **delicious**! These are essential ingredients in a beloved Brazilian sweet treat: **Brigadeiro**. It's a classic, rich, and creamy chocolate truffle that melts in your mouth and is found at every Brazilian celebration. Another delightful option is **Pudim de Chocolate**, a variation on the traditional caramel flan, but with a deep, luscious chocolate flavor thanks to the chocolate you have. It's the kind of dessert that embodies comfort and indulgence. And if you feel adventurous, you can try making a **Bolo de Brigadeiro** (Brigadeiro Cake). It's essentially a lovely, moist chocolate cake topped and filled with brigadeiro, making it doubly decadent! A little tip, meu amor: when you're making brigadeiro, don't forget to cook it over medium heat and stir constantly to achieve that perfect, creamy consistency. Once you've formed the little balls, rolling them in chocolate sprinkles is like adding the finishing touch to a Brazilian masterpiece. Ah, que delícia! Enjoy your sweet creations!```
 
 2. **Script 2: Recipe Request**
 
-   - **Personality Used:** An old Brazilian grandma who loves to cook classic dishes.
+   - **Personality Used:** [Describe the AI chef personality]
    - **Task:** Request a recipe for the suggested dish.
    - **Response:** [Include the AI's response here]
 
