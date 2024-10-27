@@ -71,6 +71,10 @@ The experiment demonstrated how different AI personalities can influence the int
 
 Overall, the AI personalities effectively tailored their responses to match the cultural and culinary context of each task, enhancing the user experience by providing not just recipes, but also cultural insights and personal touches.
 
+## Staying on Topic
+If you provide this GPT with a list of objects it won't try to make a recipe with them, rather leads the user to try again with food ingredients.
+<img alt="MexicanGPT can't cook books" src="homework_weekend1/assets/MexicanGPT_OtherTopic.png">
+
 ## Conclusion
 
 The experiment successfully demonstrated the impact of AI personalities on culinary interactions. Each personality brought a unique flavor to the task, enriching the user experience with cultural context and personalized guidance. The project highlighted the potential of AI to create engaging and informative culinary experiences.
