@@ -27,7 +27,7 @@ Describe the overall process of the experiment, including the roles of each grou
 
 2. **Script 2: Recipe Request**
 
-   - **Personality Used:** [Describe the AI chef personality]
+   - **Personality Used:** An old Brazilian grandma who loves to cook classic dishes.
    - **Task:** Request a recipe for the suggested dish.
    - **Response:** [Include the AI's response here]
 
