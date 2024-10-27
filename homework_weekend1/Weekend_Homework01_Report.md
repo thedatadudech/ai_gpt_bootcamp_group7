@@ -73,7 +73,7 @@ Overall, the AI personalities effectively tailored their responses to match the 
 
 ## Staying on Topic
 If you provide this GPT with a list of objects it won't try to make a recipe with them, rather leads the user to try again with food ingredients.
-<img alt="MexicanGPT can't cook books" src="homework_weekend1/assets/MexicanGPT_OtherTopic.png">
+<img width="1572" alt="MexicanGPT can't cook books" src="./assets/MexicanGPT_OtherTopic.png">
 
 ## Conclusion
 
