@@ -1,92 +1,126 @@
-# AI GPT BOOTCAMP Group 7
+# AI Joke Generator
 
-This repository is for Group 7 of the AI and GPT Bootcamp hosted by Encode Club. It contains all weekend homework assignments and the final project.
+A modern web application that generates customized jokes using OpenAI's GPT-4o-mini model. Built with Next.js, TypeScript, and Tailwind CSS.
 
-## Repository Structure
+![AI Joke Generator](https://images.unsplash.com/photo-1527224857830-43a7acc85260?auto=format&fit=crop&q=80&w=2071)
 
-- Each weekend's homework is organized into its respective folder.
-- The final project will be located in the `final_project` folder.
+## Features
 
-## Setting Up Your Environment
+- 🎯 **Customizable Joke Parameters**
+  - Choose from various topics (Work, People, Animals, etc.)
+  - Select different tones (Witty, Sarcastic, Silly, etc.)
+  - Pick joke types (Pun, Knock-knock, Story, etc.)
+  - Adjust creativity level with temperature control
 
-To manage environment variables securely and efficiently, we recommend using `direnv`. Below are the instructions for setting up `direnv` and configuring your OpenAI API keys.
+- 🤖 **AI-Powered Generation**
+  - Uses OpenAI's GPT-4o-mini model
+  - Smart prompt engineering for better results
+  - Automatic joke evaluation system
 
-### Installing `direnv`
+- 📊 **Quality Assessment**
+  - Evaluates humor level
+  - Checks appropriateness
+  - Monitors potential offensive content
 
-For detailed instructions on installing `direnv`, refer to the [direnv installation guide](direnv_installation_guide.md).
+- 💫 **Modern UI/UX**
+  - Responsive design
+  - Beautiful animations
+  - Real-time feedback
+  - Joke history with scrollable feed
 
-#### For Microsoft Windows
+## Tech Stack
 
-1. **Install Windows Subsystem for Linux (WSL)** if not already installed:
+- **Frontend Framework**: Next.js 13.5
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **AI Integration**: OpenAI API
+- **Icons**: Lucide React
+- **Toast Notifications**: Sonner
 
-   - Open PowerShell as Administrator and run:
-     ```powershell
-     wsl --install
-     ```
-   - Restart your computer if prompted.
+## Getting Started
 
-2. **Open WSL (Linux terminal) and install `direnv`**:
+### Prerequisites
 
-   - Open a WSL terminal (e.g., Ubuntu) and run:
-     ```bash
-     sudo apt update
-     sudo apt install direnv
-     ```
+- Node.js 16.8 or later
+- OpenAI API key
 
-3. **Configure `direnv`** in your shell (Bash, Zsh, etc.):
-   - Add the following to your shell configuration file (e.g., `~/.bashrc` for Bash or `~/.zshrc` for Zsh):
-     ```bash
-     eval "$(direnv hook bash)"  # or use "zsh" if using Zsh
-     ```
-   - Reload the shell configuration:
-     ```bash
-     source ~/.bashrc  # or ~/.zshrc
-     ```
+### Installation
 
-#### For macOS
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/ai-joke-generator.git
+cd ai-joke-generator
+```
 
-1. **Install `direnv` using Homebrew**:
+2. Install dependencies:
+```bash
+npm install
+```
 
-   - Open a terminal and run:
-     ```bash
-     brew install direnv
-     ```
+3. Create a `.env.local` file in the root directory and add your OpenAI API key:
+```env
+NEXT_PUBLIC_OPENAI_API_KEY=your_api_key_here
+```
 
-2. **Configure `direnv`** in your shell:
-   - Add the following line to your shell configuration file (e.g., `~/.bashrc` for Bash or `~/.zshrc` for Zsh):
-     ```bash
-     eval "$(direnv hook bash)"  # or "zsh" for Zsh
-     ```
-   - Then reload the shell configuration:
-     ```bash
-     source ~/.bashrc  # or ~/.zshrc
-     ```
+4. Start the development server:
+```bash
+npm run dev
+```
 
-### Setting Up OpenAI API Keys
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-For detailed instructions on setting up your OpenAI API keys, refer to the [OpenAI API key setup instructions](/openai_setup_guide.md).
+## Usage
 
-1. **Navigate to the folder** where you want to use `direnv`:
+1. **Configure Joke Parameters**
+   - Select a topic from the dropdown menu
+   - Choose the desired tone
+   - Pick a joke type
+   - Adjust the creativity slider
 
-   ```bash
-   cd /path/to/your/folder
-   ```
+2. **Generate Joke**
+   - Click the "Generate Joke" button
+   - Wait for the AI to create and evaluate the joke
 
-2. **Create an `.envrc` file** in the folder and add your OpenAI API key:
+3. **View Results**
+   - Read the generated joke
+   - Check the evaluation metrics
+   - Browse previous jokes in the history section
 
-   ```bash
-   echo 'export OPEN_AI_KEY="Your Key"' > .envrc
-   ```
+## Project Structure
 
-3. **Allow the `.envrc` file** by running the following command:
-   ```bash
-   direnv allow
-   ```
+```
+ai-joke-generator/
+├── app/
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── gradient-background.tsx
+│   ├── joke-generator.tsx
+│   ├── joke-history.tsx
+│   └── ui/
+├── lib/
+│   ├── openai.ts
+│   ├── types.ts
+│   └── utils.ts
+└── public/
+```
 
-Now, every time you enter this folder, `direnv` will automatically load the environment variables and commands specified in `.envrc`. If you make changes to `.envrc`, run `direnv allow` again to apply them.
+## Contributing
 
-For more detailed instructions, refer to the `direnv_installation_guide.md` file.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
----
+## License
 
-Let us know if you have any questions or need further assistance!
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [OpenAI](https://openai.com/) for providing the GPT-3.5 API
+- [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components
+- [Tailwind CSS](https://tailwindcss.com/) for the styling system
+- [Next.js](https://nextjs.org/) for the awesome framework
